@@ -1,3 +1,14 @@
+########################### NETWORKS
+networks:
+  t3_proxy:
+    name: t3_proxy
+    attachable: true
+    external: true
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.90.0/24
+
 services:
   bentopdf:
     image: bentopdf/bentopdf:latest
