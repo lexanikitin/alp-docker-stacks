@@ -19,4 +19,4 @@ services:
           pids: 1
         reservations:
 #          cpus: '0.25'
-          memory: 5M
+          memory: 6M
