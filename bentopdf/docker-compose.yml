@@ -11,3 +11,12 @@ services:
     #    ports:
     #      - '3000:8080'
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M
+          pids: 1
+        reservations:
+#          cpus: '0.25'
+          memory: 5M
