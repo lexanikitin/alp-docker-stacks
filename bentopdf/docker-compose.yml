@@ -16,4 +16,3 @@ services:
         limits:
           cpus: '0.50'
           memory: 100M
-          pids: 1
