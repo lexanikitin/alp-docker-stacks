@@ -4,7 +4,7 @@ networks:
 
 services:
   bentopdf:
-    image: ghcr.io/alam00000/bentopdf:latest
+    image: ghcr.io/alam00000/bentopdf:${BENTOPDF_VERSION_MANAGEMENT_TAG}
     container_name: bentopdf
     networks:
       - t3_proxy
